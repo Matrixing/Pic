@@ -11,21 +11,21 @@ hosts:
 proxies:
   - name: 迎春
     type: ss
-    server: c21s1.jamjams3.net
+    server: c21s1.jjvip8.com
     port: 13626
     cipher: aes-256-gcm
     password: n9Tssaq5Hk45dBDq
     obfs: tls
   - name: 半夏
     type: ss
-    server: c21s2.jamjams3.net
+    server: c21s2.jjvip8.com
     port: 13626
     cipher: aes-256-gcm
     password: n9Tssaq5Hk45dBDq
     obfs: tls
   - name: 剪秋
     type: vmess
-    server: c21s3.jamjams3.net
+    server: c21s3.jjvip8.com
     port: 13626
     uuid: 86f6be51-dfc0-421e-8981-43c2e6369df2
     alterId: 0
@@ -33,15 +33,15 @@ proxies:
     network: tcp
   - name: 忍冬
     type: vmess
-    server: c21s4.jamjams3.net
+    server: c21s4.jjvip8.com
     port: 13626
     uuid: 86f6be51-dfc0-421e-8981-43c2e6369df2
     alterId: 0
     cipher: auto
     network: tcp
-  - name: 紫菀
+  - name: 紫菀荷兰
     type: vmess
-    server: c21s5.jamjams3.net
+    server: c21s5.jjvip8.com
     port: 13626
     uuid: 86f6be51-dfc0-421e-8981-43c2e6369df2
     alterId: 0
@@ -49,7 +49,7 @@ proxies:
     network: tcp
   - name: 雪见
     type: vmess
-    server: c21s801.jamjams3.net
+    server: c21s801.jjvip8.com
     port: 13626
     uuid: 86f6be51-dfc0-421e-8981-43c2e6369df2
     alterId: 0
@@ -63,7 +63,7 @@ proxy-groups:
       - 半夏
       - 剪秋
       - 忍冬
-      - 紫菀
+      - 紫菀荷兰
       - 雪见
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -75,7 +75,7 @@ proxy-groups:
       - 半夏
       - 剪秋
       - 忍冬
-      - 紫菀
+      - 紫菀荷兰
       - 雪见
   - name: Final
     type: select
@@ -94,7 +94,7 @@ proxy-groups:
       - 半夏
       - 剪秋
       - 忍冬
-      - 紫菀
+      - 紫菀荷兰
       - 雪见
   - name: HKMTMedia
     type: select
@@ -104,7 +104,7 @@ proxy-groups:
       - 半夏
       - 剪秋
       - 忍冬
-      - 紫菀
+      - 紫菀荷兰
       - 雪见
 rules:
   - DOMAIN-SUFFIX,jable.tv,PROXY
